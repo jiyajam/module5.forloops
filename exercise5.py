@@ -1,11 +1,14 @@
 ######1
 
 import random
+my_list = []
 number_of_dices= int(input("How many dices?: "))
 sum=0
 for x in range(number_of_dices):
     roll= (random.randint(1,6))
     sum = sum + roll
+    my_list.append(roll)
+print(mylist)
 print(f"the sum of {number_of_dices} dices is {sum}")
 
 ###########2
